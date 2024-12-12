@@ -15,7 +15,7 @@ from ultralytics import YOLO
 import time
 
 # OpenRouter API configuration
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "insert your api key here"
 YOUR_SITE_URL = "http://localhost"
 YOUR_APP_NAME = "CCTV Detector"
 
