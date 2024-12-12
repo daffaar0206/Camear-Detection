@@ -22,7 +22,7 @@ Sistem deteksi orang menggunakan YOLOv8 dengan kemampuan text-to-speech dan anal
 
 1. Clone repository ini:
 ```bash
-git clone https://github.com/daffaar0206/Camear-Detection
+git clone https://github.com/daffaar0206/Camera-Detection
 cd [NAMA_FOLDER]
 ```
 
