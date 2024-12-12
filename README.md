@@ -22,7 +22,7 @@ Sistem deteksi orang menggunakan YOLOv8 dengan kemampuan text-to-speech dan anal
 
 1. Clone repository ini:
 ```bash
-git clone [URL_REPOSITORY_ANDA]
+git clone https://github.com/daffaar0206/Camear-Detection
 cd [NAMA_FOLDER]
 ```
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-2. Untuk menggunakan CCTV, edit `main.py` dan ganti `RTSP_URL` dengan URL RTSP kamera CCTV Anda:
+2. Untuk menggunakan CCTV, edit `cctv.py` dan ganti `RTSP_URL` dengan URL RTSP kamera CCTV Anda:
 ```python
 RTSP_URL = "rtsp://username:password@ip_address:port/stream"
 ```
@@ -70,7 +70,7 @@ Format umum RTSP URL:
 
 ## API Key
 
-Program menggunakan OpenRouter API untuk analisis AI. Pastikan untuk mengganti `OPENROUTER_API_KEY` dengan API key Anda sendiri.
+Program menggunakan OpenRouter API Google: LearnLM 1.5 Pro Experimental (free) untuk analisis AI. Pastikan untuk mengganti `OPENROUTER_API_KEY` dengan API key Anda sendiri.
 
 ## Troubleshooting
 
